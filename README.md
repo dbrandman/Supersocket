@@ -52,6 +52,10 @@ There's a lot more functionality; this tool is very extensively documented.
 
 Supersocket has a [SWIG-generated](http://www.swig.org/) Python module. To build this module, check out the README in the 'SWIG/' directory of this repo.
 
+## Building Matlab library
+
+Supersocket has a Matlab module. Check out the make.m file. The mex files essentially wrap the C commands. 
+
 
 
 
