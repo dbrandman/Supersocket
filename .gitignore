@@ -1,3 +1,13 @@
+# SWIG
+SWIG/build
+SWIG/*.pyc
+SWIG/*.pyd
+SWIG/*.c
+SWIG/supersocket.py
+SWIG/test/_supersocket.*
+SWIG/test/supersocket.py
+SWIG/test/*.pyc
+
 # Prerequisites
 *.d
 

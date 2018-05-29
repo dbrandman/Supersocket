@@ -4,8 +4,6 @@
  * David Brandman and Ben Shanahan, 2018
  */
 #include "SupersocketListener.h"
-#include "Default_ESPA_Multicast.h"
-#include "Status.h"
 #include <unistd.h>
 #include <errno.h>
 
@@ -16,6 +14,8 @@ static int ReplyToDiscoverBindRequest(int soc, SocketWrapper *multicastSocketWra
 // static int ParseUpdate(Supersocket   *s, Message *incomingMessage);
 // static int ParseClose(Supersocket    *s, Message *incomingMessage); 
 
+#define DEFAULT_ESPA_MULTICAST_IP  	"239.0.0.1"
+#define DEFAULT_ESPA_MULTICAST_PORT 5000
 
 
 
