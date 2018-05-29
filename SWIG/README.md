@@ -6,11 +6,16 @@
 
 Please install SWIG first:
 
-    $ sudo apt install swig
-	$ sudo apt install python2.7-dev
+```shell
+sudo apt install swig
+sudo apt install python2.7-dev
+```
+
 Then, build the Python library:
 
-    $ make
+```shell
+make
+```
 
 Now, try running the tests in the `test/` directory.
 
@@ -23,12 +28,16 @@ copy both *supersocket.py* and *_supersocket.so* into your project directory.
 
 Supersocket can now be imported using the Python `import` directive like so:
 
-    >>> import supersocket
+```python
+import supersocket
+```
 
 For an example of how to create a new Supersocket address and send a message, 
 please see the documentation in the Supersocket extension:
 
-    >>> help(supersocket)
+```python
+help(supersocket)
+```
 
 Most functions have been ported over into the Python extension and their usage
 is almost identical, except you never have to worry about pointers! For some
@@ -43,11 +52,15 @@ NOTE: In Python, `from` is a reserved keyword, so the Message object has that
 
 To force rebuild the project, run:
 
-    $ make remake
+```shell
+make remake
+```
 
 To clean the project, run:
 
-    $ make clean
+```shell
+make clean
+```
 
 
 
