@@ -4,7 +4,7 @@ Making sockets super in C
 Supersocket was written to facilitate communication between processes that could be on the same or different computers. The idea is that rather than referring to a process by a known IP and port, you refer to it by a name. It's very lightweight, and has no external dependencies outside of the standard Linux libraries. 
 
 ```C
-Supersocket alice 	= {0};
+Supersocket alice   = {0};
 Supersocket bob     = {0};
 InitializeSupersocket(&alice, "Alice", "127.0.0.1", 5000);
 InitializeSupersocket(&bob, "Bob", "127.0.0.1", 5001);
