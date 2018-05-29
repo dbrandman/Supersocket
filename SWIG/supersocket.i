@@ -53,8 +53,6 @@ documentation associated with the given object or function.
 
 NOTE: Since `from` is a reserved keyword in Python, this field in the Message
       object is replaced with `_from` (prepend an underscore).
-
-Benjamin Shanahan and David Brandman
 """
 %}
 

@@ -46,4 +46,13 @@ Alice will send a message to Bob, and anyone else who will be in her contact lis
 
 There's a lot more functionality; this tool is very extensively documented.
 
+
+
+## Building Python library
+
+Supersocket has a [SWIG-generated](http://www.swig.org/) Python module. To build this module, check out the README in the 'SWIG/' directory of this repo.
+
+
+
+
 Special thanks to [Ben Shanahan](https://github.com/benshanahan1 "Ben Shanahan's github") for creating the Display tool used for debugging! For the most up-to-date version of the Display tool, check out the [Display repository](https://github.com/benshanahan1/display "Display Library").
